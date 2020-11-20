@@ -1,0 +1,26 @@
+package chapter6;
+
+class Person{
+	String name;
+	int age;
+	
+	Person(){
+		this("이름 없음", 1);
+	}
+	Person(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+}
+
+public class CallAnotherConst {
+
+	public static void main(String[] args) {
+		Person p1 = new Person("이순신", 32);
+		Person p2 = new Person();
+		
+		System.out.println(p2.name + p2.age);
+
+	}
+
+}

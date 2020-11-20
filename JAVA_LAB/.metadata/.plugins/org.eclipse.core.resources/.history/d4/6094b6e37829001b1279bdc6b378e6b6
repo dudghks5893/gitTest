@@ -1,0 +1,23 @@
+package method;
+
+public class ex13 {
+
+	public static void main(String[] args) {
+		printPay(10.00, 40);
+		printPay(10.00, 50);
+		printPay(7.50, 38);
+		printPay(8.50, 66);
+	}
+
+	//시급과 일한 시간을 입력받아, 주급을 출력
+	public static void printPay(double basePay, int hours) {
+		double pay = hours*basePay;
+		//해당 메소드를 완성하세요.
+		if((hours>40)*(1.5)) {
+			return;
+		}
+		
+		
+		System.out.printf("$ %.2f\n",pay);
+	}
+}

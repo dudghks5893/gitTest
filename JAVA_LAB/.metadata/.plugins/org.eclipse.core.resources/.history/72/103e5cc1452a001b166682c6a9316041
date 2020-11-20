@@ -1,0 +1,30 @@
+package class_study;
+
+class Cylinder{
+	double radius; //반지름
+	double height; //높이
+	
+	double getVolume() {
+		return (radius * radius * Math.PI)*height;
+	}
+	double getArea() {
+		return 2*(radius * radius * Math.PI)+(2*(radius*Math.PI*height));
+	}
+}
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		//객체 생성
+		Cylinder c = new Cylinder();
+		
+		//속성 값 입력
+		c.radius = 4;
+		c.height = 5;
+		
+		//출력
+		System.out.printf("원기둥의 부피: %.2f \n",c.getVolume());
+		System.out.printf("원기둥의 겉넓이: %.2f \n",c.getArea());
+	}
+
+}

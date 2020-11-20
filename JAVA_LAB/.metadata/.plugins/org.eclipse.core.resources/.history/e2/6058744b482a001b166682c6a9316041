@@ -1,0 +1,29 @@
+package class_study;
+
+class Miner {
+	// 필드 (인스턴스 변수)
+	String name;
+	int coins;
+	
+	//생성자
+	public Miner (String str) {
+		name = str;
+		coins = 0;
+	}
+}
+
+public class ex3 {
+
+	public static void main(String[] args) {
+		// 1. 두 갱부 객체를 생성하세요.
+		Miner malon = new Miner("김태헌");
+		Miner gloria = new Miner("김태헌");
+		
+		// 2. 코인을 채굴하세요.
+		
+		
+		// 3. 객체 정보를 출력하세요.
+
+	}
+
+}

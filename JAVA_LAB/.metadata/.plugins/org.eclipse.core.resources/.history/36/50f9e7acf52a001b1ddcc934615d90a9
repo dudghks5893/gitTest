@@ -1,0 +1,22 @@
+package testEx;
+
+public class ex1 {
+	public static void main(String[] args) {
+		
+		take kim = new take("김씨",30000);
+		take E = new take("이씨",20000);
+		
+		//김씨 아이스아메리카노 주문
+		star AA = new star("아이스아메리카노");
+		kim.AA(AA);
+		kim.karamall(AA);
+		kim.show();
+		AA.show();
+		
+		//이씨 라떼 주문
+		kong rata = new kong("밀크라떼");
+		E.rata(rata);
+		E.show();
+		rata.show();
+	}
+}

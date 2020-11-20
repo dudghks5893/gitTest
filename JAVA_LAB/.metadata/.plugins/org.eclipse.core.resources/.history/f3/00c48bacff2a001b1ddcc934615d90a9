@@ -1,0 +1,53 @@
+package class_study;
+
+class Miner {
+	// 필드 (인스턴스 변수)
+	String name;
+	int coins;
+	
+	//생성자
+	public Miner (String str) {
+		name = str;
+		coins = 0;
+	}
+	//메소드(인스턴스 메소드) - 객체의 정보를 문자열로 반환
+	public String toString() {
+		return String.format("Miner { name: %s, coins: %d}", name,coins);
+	}
+	
+	//메소드(인스턴스 메소드) - 코인 채굴
+	public void mine( ) {
+		coins += 1;
+	}
+}
+
+public class ex3 {
+
+	public static void main(String[] args) {
+		// 1. 두 갱부 객체를 생성하세요.
+		
+		Miner malon = new Miner("__"); // 말런 바로 입력해도 가능
+		Miner gloria = new Miner("____"); // 글로리아 바로 입력해도 가능
+		
+		malon.name = "말런";
+		gloria.name = "글로리아";
+		// 2. 코인을 채굴하세요.
+		for (int i = 0; i < 3; i++) {
+			malon.mine();
+		}
+		for (int i = 0; i < 2; i++) {
+			gloria.mine();
+		}
+
+
+		
+		
+		// 3. 객체 정보를 출력하세요.
+		Miner[] Coin = {malon,gloria};
+		for (int i=0; i < Coin.length; i++) {
+			System.out.println(Coin[i].toString());
+		}
+
+	}
+
+}

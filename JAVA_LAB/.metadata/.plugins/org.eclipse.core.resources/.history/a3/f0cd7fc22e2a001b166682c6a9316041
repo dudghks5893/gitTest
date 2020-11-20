@@ -1,0 +1,25 @@
+package class_study;
+
+class Square{
+	int length; //길이
+	
+	int area() { //정사각형 넓이는 가로*세로
+		return length * length;
+	}
+}
+
+public class SquareTest {
+
+	public static void main(String[] args) {
+			// 1. 객체 생성
+		Square s = new Square();
+		Square q = new Square();		
+			// 2. 필드 초기화(값 변경)
+		s.length = 4;
+		q.length = 9;
+			// 3. 결과 출력
+		System.out.printf("한 변의 길이가 %d인 정사각형의 넓이: %d",s.length,s.area());
+		System.out.printf("한 변의 길이가 %d인 정사각형의 넓이: %d",q.length,q.area());
+	}
+
+}

@@ -1,0 +1,16 @@
+package method;
+
+public class ex3 {
+
+	public static void main(String[] args) {
+		double G=8.86;
+		double D=182.736;
+		double E= CE (G,D);
+		System.out.printf("¿¬ºñ: %.2f km/L",E);
+
+	}
+	public static double CE(double G, double D) {
+		return G;
+	}
+
+}
