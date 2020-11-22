@@ -14,12 +14,12 @@ class Order{
 	//메소드
 	public int totalprice() {
 		// 모든 주문 메뉴의 총합을 반환하세요.
-		int A = 0;
+		int A = 0; // A값 초기화
 		
 		for (int i =0; i <menus.length; i++) {
-			A += menus[i].price;				
+			A += menus[i].price; //A에 메뉴 하나씩 더해가며 넣는다				
 		}
-		return A;
+		return A; // A를 반환
 	}
 }
 
