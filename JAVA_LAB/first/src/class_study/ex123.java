@@ -1,18 +1,26 @@
 package class_study;
 
 class Food2{
+	// 필드
 	String name;
 	int price;
-	
+	// 필드 초기화하는 생성자
 	Food2(String name, int price){
 		this.name = name;
 		this.price = price;
 	}
-	
-	String A() {
-		String str = "Food{name: " + this.name + ", price: " + this.price + "원}";
-		return str;
+	//메소드
+//	자동 투스링스 만들기 소스 들어가서 만들면 됨
+	@Override
+	public String toString() {
+		return "Food2 [name=" + name + ", price=" + price + "]";
 	}
+	
+//	//메소드	
+//	String A() {
+//		String str = "Food{name: " + this.name + ", price: " + this.price + "원}";
+//		return str;
+//	}
 }
 
 public class ex123 {
@@ -28,7 +36,7 @@ public class ex123 {
 		
 		//모든 음식 정보 출력
 		for (int i = 0; i < foods.length; i++) {
-			System.out.println(foods[i].A());
+			System.out.println(foods[i].toString());
 		}
 
 	}

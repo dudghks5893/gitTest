@@ -21,8 +21,8 @@ class Account {
 		}
 		
 		/* 2. 현재 잔액에서 송금액을 이체 대상 계좌로 전달하세요.*/
-		 balance -= 3000;
-		 target.balance += 3000;
+		 balance -= amount;
+		 target.balance += amount;
 		return true;
 	}
 }

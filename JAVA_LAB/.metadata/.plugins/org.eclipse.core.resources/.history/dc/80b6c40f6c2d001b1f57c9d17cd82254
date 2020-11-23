@@ -1,0 +1,19 @@
+package ArrayList;
+
+public class ex3 {
+
+	public static void main(String[] args) {
+		int[] A = new int[5];
+		for(int i=0; i < 10; i++) {
+			if((i % 2) == 0) {
+				A[i] = i; 
+			}
+		}
+		int sum = 0;
+		for(int i=0; i<A.length; i++) {
+			sum += A[i];
+		}
+		System.out.println(sum);
+	}
+
+}

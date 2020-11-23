@@ -39,13 +39,25 @@ public class ex3 {
 		for (int i = 0; i < 2; i++) {
 			gloria.mine();
 		}
-				
+		/*
+		 	malon.mine();
+		 	malon.mine();
+		 	malon.mine();
+		 	gloria.mine();
+		 	gloria.mine();
+		 */
+		
+		
+		
 		// 3. 객체 정보를 출력하세요.
 		Miner[] Coin = {malon,gloria};
 		for (int i=0; i < Coin.length; i++) {
 			System.out.println(Coin[i].toString());
 		}
-
+		/*
+			System.out.println(malon.toString());
+			System.out.println(gloria.toString());
+		 */
 	}
 
 }

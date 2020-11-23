@@ -1,14 +1,15 @@
 package class_study;
 
 class Food{
+	//필드
 	String name;
 	int price;
-	
+	//필드 초기화하는 생성자
 	Food(String name, int price){
 		this.name = name;
 		this.price = price;
-		
 	}
+	
 }
 
 public class ex2 {
