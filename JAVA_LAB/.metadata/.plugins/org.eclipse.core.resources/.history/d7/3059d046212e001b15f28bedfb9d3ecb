@@ -1,0 +1,25 @@
+package inheritance_extends;
+
+public class ex2 {
+
+	public static void main(String[] args) {
+//		//객체 생성
+//		Car c = new Car("티코");
+//		Car t = new Truck("봉고",1.5);
+//		
+//		//정보 출력
+//		System.out.println(c.soString());
+//		System.out.println(t.soString());
+		
+		int A = 0;
+		int a = A++;
+		System.out.println(a);
+		
+		int B =0;
+		++B;
+		++B;
+		System.out.println(B);
+	}
+
+}
+

@@ -4,12 +4,17 @@
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar"/>
 <fullyQualifiedTypeName name="hello.Ex1"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="testEx.star"/>
 <fullyQualifiedTypeName name="class_study.Menu"/>
 <fullyQualifiedTypeName name="javax.swing.MenuSelectionManager"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="chapter7.Book"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="chapter8.Customer"/>
+<fullyQualifiedTypeName name="chapter8.VIPCustomer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="inheritance_extends.Wizard"/>
+<fullyQualifiedTypeName name="inheritance_extends.aaaaaa"/>
 </qualifiedTypeNameHistroy>

@@ -60,20 +60,21 @@ public class ex4 {
 		AList.add(B2);
 		AList.add(B5);
 		AList.add(B4);
-//		AList.remove(2);
+//		AList.remove(2); 객체 지우기
 //		System.out.println(AList);
 //		Iterator iter = AList.iterator();
 //		while(iter.hasNext()) {
 //			
 //		}
+		System.out.println("=========어레이리스트==========");
 		for(Dog n : AList) {
 			System.out.println(n.showDogInfo());
 		}
 		
-
-//		for(int i=0; i<A.length; i++) {
-//		System.out.println(A[i].showDogInfo());	
-//		}
+		System.out.println("=========배열속객체들==========");
+		for(int i=0; i<A.length; i++) {
+		System.out.println(A[i].showDogInfo());	
+		}
 		
 	
 	}

@@ -36,9 +36,9 @@ public class ex7 {
 		
 		// 송금: 3천원씩 a 계좌에서 -> b계좌로!
 		boolean result = true;
-		while (result) {
-			result = a.transfer(b,3000);
-		}
+		while (result) { //result가 true면 계속 반복, false가 되면 중지
+			result = a.transfer(b,3000); //a계좌의 잔금이 3000원 이상이면 b계좌로 송금한다.return true
+		}								//반대로 3000원이 안되면 return false
 		//결과 출력
 		System.out.println(a.toString());
 		System.out.println(b.toString());
