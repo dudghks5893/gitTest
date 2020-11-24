@@ -1,0 +1,12 @@
+package codeup;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		int A = 960322;
+		int B = 1121719;
+		System.out.printf("%d-%d",A,B
+				);
+	}
+
+}

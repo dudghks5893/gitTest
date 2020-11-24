@@ -1,0 +1,10 @@
+package codeup;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		int A = 15;
+		System.out.println(A);
+	}
+
+}

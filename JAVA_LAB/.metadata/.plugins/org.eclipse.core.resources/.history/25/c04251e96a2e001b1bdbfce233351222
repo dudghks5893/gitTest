@@ -1,0 +1,11 @@
+package codeup;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		char A = 'A';
+		char B = 'b';
+		System.out.printf("%s %s",B,A);
+	}
+
+}
