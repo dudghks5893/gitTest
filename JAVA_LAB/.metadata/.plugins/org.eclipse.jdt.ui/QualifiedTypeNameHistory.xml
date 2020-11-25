@@ -13,8 +13,11 @@
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="chapter8.Customer"/>
 <fullyQualifiedTypeName name="chapter8.VIPCustomer"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="inheritance_extends.Wizard"/>
 <fullyQualifiedTypeName name="inheritance_extends.aaaaaa"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="chapter10.Customer.Customer"/>
 </qualifiedTypeNameHistroy>

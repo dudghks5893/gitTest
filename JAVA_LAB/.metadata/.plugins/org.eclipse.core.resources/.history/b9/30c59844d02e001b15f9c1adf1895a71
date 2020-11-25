@@ -1,0 +1,16 @@
+package chapter10.scheduler;
+
+public interface Scheduler {
+	public void getNextCall();			//추상메소드
+	public void sendCallToAgent();		//추상메소드
+}
+
+class RoundRobin interface Scheduler{
+	
+}
+class LeastJob interface Scheduler{
+	
+}
+class PriorityAllocation interface Scheduler{
+	
+}

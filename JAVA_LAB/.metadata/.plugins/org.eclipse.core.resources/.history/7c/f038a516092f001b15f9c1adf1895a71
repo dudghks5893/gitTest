@@ -1,0 +1,10 @@
+package codeup;
+
+public class ex21 {
+
+	public static void main(String[] args) {
+//		char data[]= "a";
+//		System.out.printf("%s",data);
+	}
+
+}

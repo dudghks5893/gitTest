@@ -1,0 +1,14 @@
+package codeup;
+
+public class ex21 {
+
+	public static void main(String[] args) {
+		char[] data = new char[51];
+		String str = "Infomation";
+		for(int i=0; i<data.length; i++) {
+			data[i] = 
+		}
+		System.out.printf("%s",data);
+	}
+
+}

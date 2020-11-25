@@ -1,0 +1,114 @@
+package testEx;
+
+public abstract class Car {
+	String name;
+	
+	public Car(String name) {
+		this.name = name;
+	}
+	
+	public abstract void start();
+	public abstract void drive();
+	public abstract void stop();
+	public abstract void turnoff();
+	
+	final public void run() {
+		start();
+		drive();
+		stop();
+		turnoff();
+	}
+}
+
+class Sonata extends Car{
+	String name;
+	@Override
+	public void start() {
+		System.out.println("시동을 켭니다.");
+	}
+
+	@Override
+	public void drive() {
+		System.out.println("달립니다.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("멈춥니다.");
+	}
+
+	@Override
+	public void turnoff() {
+		System.out.println("시동을 끕니다.");
+	}
+	
+}
+class Grandeur extends Car{
+
+	@Override
+	public void start() {
+		System.out.println("시동을 켭니다.");
+	}
+
+	@Override
+	public void drive() {
+		System.out.println("달립니다.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("멈춥니다.");
+	}
+
+	@Override
+	public void turnoff() {
+		System.out.println("시동을 끕니다.");
+	}
+	
+}
+class Avante extends Car{
+
+	@Override
+	public void start() {
+		System.out.println("시동을 켭니다.");
+	}
+
+	@Override
+	public void drive() {
+		System.out.println("달립니다.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("멈춥니다.");
+	}
+
+	@Override
+	public void turnoff() {
+		System.out.println("시동을 끕니다.");
+	}
+	
+}
+class Genesis extends Car{
+
+	@Override
+	public void start() {
+		System.out.println("시동을 켭니다.");
+	}
+
+	@Override
+	public void drive() {
+		System.out.println("달립니다.");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("멈춥니다.");
+	}
+
+	@Override
+	public void turnoff() {
+		System.out.println("시동을 끕니다.");
+	}
+	
+}
