@@ -1,0 +1,54 @@
+package chapter11;
+
+public class classTest {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		Person p1 = new Person();
+		//Person 객체에서 정보를 얻음
+		Class pC = p1.getClass();
+		System.out.println(pC.getName());
+		
+		// 직접 클래스 파일을 대입
+		Class pC2 =Person.class;
+		System.out.println(pC.getName());
+		
+		//클래스의 이름으로 입력(패키지포함)
+		Class pC3 = Class.forName("chapter11.classTest");
+		System.out.println(pC3.getName());
+	}
+
+}
+
+class Person{
+	private String name;
+	private int age;
+	
+	
+	public Person(){} //디폴트 생성자
+	
+	public Person(String name) { //이름 초기화 생성자
+		this.name = name;
+	}
+	public Person(String name, int age) {//이름,나이 초기화 생성자
+		this.name = name;
+		this.age =age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+}

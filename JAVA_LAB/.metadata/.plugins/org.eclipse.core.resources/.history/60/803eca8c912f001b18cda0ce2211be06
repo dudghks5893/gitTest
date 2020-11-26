@@ -1,0 +1,23 @@
+package chapter11;
+
+public class StringBuilderTest {
+
+	public static void main(String[] args) {
+		String A = new String("java");
+		System.out.println("A문자열 주소:"+System.identityHashCode(A));
+		
+		StringBuilder B = new StringBuilder(A);
+		System.out.println("연산 전 메모리 주소:"+System.identityHashCode(B));
+		
+		B.append(" and");
+		B.append(" android");
+		B.append(" 잠온다..");
+		System.out.println("연산후 B메모리주소:"+System.identityHashCode(B));
+		
+		A = B.toString();
+		System.out.println(A);
+		System.out.println("연결된 A문자열 주소:"+System.identityHashCode(A));
+		
+	}
+
+}

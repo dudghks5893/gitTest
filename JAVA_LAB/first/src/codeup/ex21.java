@@ -7,8 +7,7 @@ public class ex21 {
 		String str = "Infomation";
 		data = str.toCharArray();
 		
-		
-		System.out.printf("%s",data);
+		System.out.println(data);
 	}
 
 }

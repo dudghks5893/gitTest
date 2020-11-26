@@ -1,0 +1,57 @@
+package chapter11;
+
+public class EqualsTest {
+
+	public static void main(String[] args) {
+		Student s1 = new Student(100,"이상원");
+		Student s2 = s1; //주소 복사
+		Student s3 = new Student(100,"이상원");
+		
+		//s1과s2비교
+		if(s1 == s2) 
+			System.out.println("s1와s2주소는 같습니다.");
+		else
+			System.out.println("s1과s2주소는 틀립니다.");
+		
+		if(s1.equals(s2)) 
+			System.out.println("s1와s2주소는 동일합니다.");
+		else
+			System.out.println("s1과s2주소는 동일하지 않습니다.");
+		
+		System.out.println("==========================");
+		
+		//s1과 s3비교
+		if(s1 == s3) 
+			System.out.println("s1와s3주소는 같습니다.");
+		else
+			System.out.println("s1과s3주소는 틀립니다.");
+		
+		if(s1.equals(s3)) 
+			System.out.println("s1와s3주소는 동일합니다.");
+		else
+			System.out.println("s1과s3주소는 동일하지 않습니다.");
+		
+		
+	}
+
+}
+
+
+class Student{
+	int studentId;
+	String studentName;
+	
+	
+	public Student(int studentId, String studentName) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+
+
+//	@Override
+//	public String toString() {
+//		return "Student [studentId=" + studentId + ", studentName=" + studentName + "]";
+//	}
+//	
+	
+}

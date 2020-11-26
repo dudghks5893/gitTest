@@ -1,0 +1,28 @@
+package chapter11;
+
+public class StringBuilderTest {
+
+	public static void main(String[] args) {
+		String A = new String("java");		//처음 "java"객체 주소
+		System.out.println("A문자열 주소:"+System.identityHashCode(A));
+		
+		StringBuilder B = new StringBuilder(A);  //B 객체 주소
+		System.out.println("연산 전 메모리 주소:"+System.identityHashCode(B));
+		
+		B.append(" and");
+		B.append(" android");
+		B.append(" 잠온다..");
+		System.out.println("연산후 B메모리주소:"+System.identityHashCode(B));
+		System.out.println(B);
+		A = B.toString(); // String클래스로 반환 (투스트링으로 문자들을 합쳐줬다)
+		System.out.println(A);
+		System.out.println("연결된 A문자열 주소:"+System.identityHashCode(A));
+		
+		int x = Integer.parseInt("10");
+		double y = Double.parseDouble("10.123");
+		
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}

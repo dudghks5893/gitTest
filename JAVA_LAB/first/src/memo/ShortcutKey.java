@@ -17,6 +17,7 @@ public class ShortcutKey {
 		안녕하세요.	
 		안녕하세요.	
 		 	닫기 */
+		// Ctrl + F			 검색기능
 		
 
 	}

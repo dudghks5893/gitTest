@@ -1,0 +1,15 @@
+package chapter11;
+
+public class StringEquals {
+
+	public static void main(String[] args) {
+		//문자열String 에는 이미 equals 메소드가 재정의 되어 있다.
+		//String a = "문자열";
+		String str1 = new String("abc");
+		String str2 = new String("abc");
+		
+		System.out.println(str1 == str2);
+		System.out.println(str1.equals(str2));
+	}
+
+}

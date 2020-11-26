@@ -1,0 +1,28 @@
+package chapter11;
+
+public class ToStringEx {
+
+	public static void main(String[] args) {
+		
+		Book book1= new Book(200, "개미");
+		Book book2= new Book(201, "거미");
+		System.out.println(book1.toString());
+		System.out.println(book2.toString());
+		
+	}
+
+}
+
+
+class Book {
+	int bookNum;
+	String bookTitle;
+	
+	
+	public Book(int bookNum, String bookTitle) {
+		this.bookNum = bookNum;
+		this.bookTitle = bookTitle;
+	}
+	
+
+}
