@@ -1,0 +1,28 @@
+package testEx.solo;
+
+public class Methodex6 {
+
+	public static void main(String[] args) {
+		
+		grade(100);
+		
+			
+	}
+	public static void grade(int A) {
+		if(A>=95) {
+			System.out.println("A+");
+		}
+		else if(A>=90) {
+			System.out.println("A0");
+		}
+		else if(A>=80) {
+			System.out.println("B+");
+		}
+		else if(A>=70) {
+			System.out.println("B0");
+		}
+		else {
+			System.out.println("C+");
+		}
+	}
+}

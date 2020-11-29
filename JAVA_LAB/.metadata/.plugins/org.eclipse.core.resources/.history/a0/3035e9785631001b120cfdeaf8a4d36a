@@ -1,0 +1,26 @@
+package testEx.solo;
+
+public class Methodex4 {
+
+	public static void main(String[] args) {
+		
+		Methodex4 dolr = Methodex4.R();
+		double 	won = C(dolr);
+		System.out.printf("È¹µæ ±Ý¾×: $%.2f(%.0f¿ø)",R(),C());
+		System.out.println(C());
+
+	}
+	
+	public static double C(double R) {
+		return R*1082.25108;
+	}
+	
+	public static Integer R() {
+		for(int i=0; i<3; i++) {
+		double B = Math.random();
+		 B += ((int)(1*6)+1);
+		}
+		return R();
+	}
+}
+

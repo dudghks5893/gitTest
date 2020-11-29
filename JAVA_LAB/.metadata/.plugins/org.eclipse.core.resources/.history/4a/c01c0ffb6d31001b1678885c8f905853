@@ -1,0 +1,19 @@
+package testEx.solo;
+
+public class Methodex5 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	int hp;
+	int mp;
+	
+	public static String wear() {
+		if(hp==2000 && mp==2000) {
+			
+		}
+	}
+}
+
+

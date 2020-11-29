@@ -3,10 +3,8 @@ package method;
 public class ex3 {
 
 	public static void main(String[] args) {
-		double G=8.86;
-		double D=182.736;
-		double E= CE (G,D);
-		System.out.printf("연비: %.2f km/L",E);
+		
+		System.out.printf("연비: %.2f km/L",CE(8.86,182.736));
 
 	}
 	public static double CE(double G, double D) {

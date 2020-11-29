@@ -1,0 +1,31 @@
+package testEx.solo;
+
+public class Methodex5 {
+
+	public static void main(String[] args) {
+		
+		grade(100);
+		
+	}
+	public static void grade(int A) {
+		switch (A) {
+		case 95:
+			System.out.println("A+");
+			break;
+		case 90:
+			System.out.println("A0");
+			break;
+		case 80:
+			System.out.println("B+");
+			break;
+		case 70:
+			System.out.println("B0");
+			break;
+		default:
+			System.out.println("C+");
+			break;
+		}
+	}
+}
+
+

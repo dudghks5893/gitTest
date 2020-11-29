@@ -1,0 +1,26 @@
+package testEx.solo;
+
+public class Method {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+
+class kc{
+	double k;
+	int km;
+	
+	public kc(double k, int km) {
+		this.k = k;
+		this.km= km;		
+	}
+	
+	public void info() {
+		
+	}
+	
+	
+}

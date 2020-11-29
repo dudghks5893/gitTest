@@ -1,0 +1,32 @@
+package testEx.solo;
+
+public class Methodex3 {
+
+	public static void main(String[] args) {
+		
+		kc A = new kc(8.86,182.736);
+		
+		System.out.printf("ªÔ∞„ªÏ 3¿Œ∫–: %.2f Kcal",A.info());
+	}
+
+}
+
+
+class kc2{
+	double k;
+	double km;
+	
+	public kc2(double k, double km) {
+		this.k = k;
+		this.km= km;		
+	}
+
+	
+	public double info() {
+		return  k*km;
+	}
+	
+
+	
+	
+}

@@ -1,0 +1,23 @@
+package testEx.solo;
+
+public class Methodex4 {
+
+	public static void main(String[] args) {
+		
+		double A = dice();
+		System.out.println(A);
+	}
+	
+	public static double dar(int D) {
+		return D*1082.25108;
+	}
+	
+	public static int dice() {
+		for(int i=0; i<3; i++) {
+		}
+		return (int)(Math.random()*6)+1;
+	}
+
+}
+
+

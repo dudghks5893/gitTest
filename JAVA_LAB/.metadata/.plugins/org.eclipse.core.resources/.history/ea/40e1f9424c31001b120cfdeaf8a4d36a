@@ -1,0 +1,15 @@
+package testEx.solo;
+
+public class Methodex4 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public int R() {
+		double B = Math.random();
+		return	double B = (int)(1*6)+1;
+	}
+}
+
