@@ -1,0 +1,13 @@
+package chapter13.lambda;
+
+public class App {
+	
+	public static void main(String[] args) {
+		Human tom = new Human();
+		tom.walk();
+		
+		Robot sam = new Robot();
+		sam.walk();
+	}
+
+}

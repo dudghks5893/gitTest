@@ -1,0 +1,5 @@
+package chapter13.lambda;
+
+public interface Walkable {
+	walk();
+}

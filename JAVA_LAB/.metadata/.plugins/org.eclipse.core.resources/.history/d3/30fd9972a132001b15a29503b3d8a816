@@ -1,0 +1,7 @@
+package chapter13.lambda;
+
+public class Human {
+	public void walk() {
+		System.out.println("인간이 걷는다.");
+	}
+}

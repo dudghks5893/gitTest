@@ -1,0 +1,15 @@
+package chapter13.stream;
+
+import java.util.stream.IntStream;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		IntStream //정수 스트림
+		.range(1, 10) //숫자 1부터 10까지(정수)
+		.skip(5) //처음부터 5개 요소를 넘김
+		.forEach((x)-> System.out.println(x));
+	}
+
+}

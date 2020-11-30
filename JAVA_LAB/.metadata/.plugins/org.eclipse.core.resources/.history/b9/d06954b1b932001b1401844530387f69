@@ -1,0 +1,29 @@
+package chapter13.stream;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		IntStream //정수 스트림
+		.range(1, 10) //숫자 1부터 10까지(정수)
+		.skip(5) //처음부터 5개 요소를 넘김
+		.forEach(x-> System.out.println(x));
+		
+		System.out.println();
+		
+		int val = IntStream
+				.range(1, 5)	//1~5까지
+				.sum();			//합계
+		System.out.println(val);
+		
+		Stream.of("Hello", "bottole", "Africa")
+		.sorted()  //정렬:알파벳순
+		.findFirst()   //첫번째
+		.ifPresent((x) -> System.out.println(x));
+	
+	}
+
+}
