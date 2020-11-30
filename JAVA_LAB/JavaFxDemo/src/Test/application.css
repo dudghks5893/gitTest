@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#btn{
+	-fx-background-color: coral;
+	-fx-text-fill: white;
+	
+}
+#anPane{
+	-fx-background-color: #c6fced;
+}
