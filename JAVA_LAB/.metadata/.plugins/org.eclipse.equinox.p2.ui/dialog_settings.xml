@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="org.eclipse.equinox.internal.p2.ui.dialogs.InstallWizard.WizardSettings">
 		<item key="DIALOG_X_ORIGIN" value="74"/>
 		<item key="DIALOG_Y_ORIGIN" value="50"/>
@@ -53,4 +54,6 @@
 		<item key="ListSashWeight" value="800"/>
 		<item key="DetailsSashWeight" value="200"/>
 	</section>
+=======
+>>>>>>> JavaTest
 </section>

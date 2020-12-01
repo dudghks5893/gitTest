@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 scenebuilder.exe=D\:\\SceneBuilder\\SceneBuilder.exe
+=======
+scenebuilder.exe=E\:\\SceneBuilder\\SceneBuilder.exe
+>>>>>>> JavaTest
