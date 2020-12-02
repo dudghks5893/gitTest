@@ -12,6 +12,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\JavaGit"/>
+			<item value="E:\JavaFxGit"/>
 			<item value="D:\JAVA_LAB\6장연습문제 풀이"/>
 		</list>
 	</section>
